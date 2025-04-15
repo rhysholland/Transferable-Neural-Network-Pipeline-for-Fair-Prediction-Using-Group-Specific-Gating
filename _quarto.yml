@@ -1,0 +1,26 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Transferable Neural Network Pipeline for Fair Prediction"
+  author: "Rhys Holland"
+  date: today
+  chapters:
+    - index.qmd
+    - overview.qmd
+    - data-preprocessing.qmd
+    - feature-engineering.qmd
+    - model-definition.qmd
+    - training.qmd
+    - evaluation.qmd
+    - proof-of-concept-gendep.qmd
+    - publication.qmd
+    - references.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: true
+    code-copy: true

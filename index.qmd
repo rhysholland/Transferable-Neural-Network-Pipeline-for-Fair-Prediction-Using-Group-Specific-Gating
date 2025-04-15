@@ -1,0 +1,25 @@
+---
+title: "Transferable Neural Network Pipeline for Fair Prediction"
+subtitle: "A modular, fairness-aware neural architecture with group-specific gating"
+format: html
+---
+
+Welcome to the companion documentation for the **Transferable Neural Network Pipeline for Fair Prediction Using Group-Specific Gating**.
+
+This project presents a modular neural network pipeline designed to support *fair prediction across protected subgroups*, using **gated subgroup-specific components**. The current implementation uses the **GENDEP dataset** as a proof-of-concept, but all scripts and methods are written to be generalisable.
+
+### 🧭 Contents
+
+- 📄 **[Overview](overview.qmd)** – purpose, motivation, pipeline diagram
+- 🧹 **[Data Preprocessing](data-preprocessing.qmd)** – required structure and cleaning steps
+- 🔧 **[Feature Engineering](feature-engineering.qmd)** – normalisation, subgroup definitions
+- 🧠 **[Model Definition](model-definition.qmd)** – gated neural net architecture
+- 🏋️ **[Training](training.qmd)** – procedure, cross-validation, fairness constraints
+- 📊 **[Evaluation](evaluation.qmd)** – performance metrics and subgroup analyses
+- 🧪 **[GENDEP Example](proof-of-concept-gendep.qmd)** – demo use case
+- 📚 **[For Reviewers](publication.qmd)** – BMC Bioinformatics summary and context
+- 📖 **[References](references.qmd)**
+
+---
+
+> 🔍 *This site is designed for researchers, developers, and reviewers interested in reproducible, fairness-aware machine learning pipelines. Please cite the final paper if you use this code.*
