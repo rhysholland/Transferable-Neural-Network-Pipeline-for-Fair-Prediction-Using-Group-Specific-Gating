@@ -22,4 +22,4 @@ This project presents a modular neural network pipeline designed to support *fai
 
 ---
 
-> 🔍 *This site is designed for researchers, developers, and reviewers interested in reproducible, fairness-aware machine learning pipelines. Please cite the final paper if you use this code.*
+> 🔍 *This site is designed for researchers, developers, and reviewers interested in reproducible, fairness-aware machine learning pipelines. Please cite the final paper if you use this code.*quarto render
